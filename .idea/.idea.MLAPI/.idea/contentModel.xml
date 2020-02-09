@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="MLAPI" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MLModel.zip" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AnalyzeTextController.cs" t="Include" />
+          <e p="ApiControllerBase.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="DataContext.cs" t="Include" />
+          <e p="Domain" t="Include">
+            <e p="BaseEntity.cs" t="Include" />
+            <e p="DbModelInput.cs" t="Include" />
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20200209140746_init.cs" t="Include" />
+            <e p="20200209140746_init.Designer.cs" t="Include" />
+            <e p="DataContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="ModelInput.cs" t="Include" />
+            <e p="ModelOutput.cs" t="Include" />
+          </e>
+          <e p="Seed.cs" t="Include" />
+        </e>
+        <e p="MLAPI.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MLAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IMachineLearningService.cs" t="Include" />
+          <e p="MachineLearningService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="MLAPI.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_MLAPI.-402499673.00" t="ExcludeRecursive" />
+  </component>
+</project>
